@@ -4,11 +4,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
   <meta http-equiv="Content-Security-Policy"
-        content="default-src 'self' https://kauth.kakao.com https://kapi.kakao.com http://mud-kage.kakao.co.kr
-                   http://ec2-52-79-100-222.ap-northeast-2.compute.amazonaws.com:8080 http://www.whoo.io http://localhost:8080;
+        content="default-src 'self' https://kauth.kakao.com https://kapi.kakao.com http://mud-kage.kakao.co.kr;
                    script-src 'self' 'unsafe-eval';
                    style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
-                   img-src 'self' http://mud-kage.kakao.co.kr http://ionicframework.com http://imagebase.net;
+                   img-src 'self' http://mud-kage.kakao.co.kr;
                    font-src 'self' https://fonts.gstatic.com; ">
   <title></title>
 
@@ -36,6 +35,7 @@
   <script src="js/ctrl/loginCtrl.js"></script>
   <script src="js/services.js"></script>
   <script src="js/svc/chatSvc.js"></script>
+  <script src="js/svc/loginSvc.js"></script>
 </head>
 <body ng-app="strt">
 <!--

@@ -26,3 +26,4 @@ Issues have been disabled on this repo, if you do find an issue or have a questi
 
 ## Plugin
 1. cordova plugin add cordova-plugin-inappbrowser
+2. ionic plugin add https://github.com/apache/cordova-plugin-whitelist.git

@@ -5,6 +5,13 @@
 // the 2nd parameter is an array of 'requires'
 // 'starter.services' is found in services.js
 // 'starter.controllers' is found in controllers.js
+
+//login
+var accToken = "";
+var reqToken = "";
+var clientId = "3edf1147f1c757da1113ae07b0ed3458"; //Kakao REST API key
+var redirectUri = "http://localhost/";
+
 angular.module('strt', ['ionic', 'strt.ctrls', 'strt.svcs', 'ngCordova'])
 
   .run(function ($ionicPlatform) {
