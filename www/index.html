@@ -3,9 +3,16 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+  <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self' https://kauth.kakao.com https://kapi.kakao.com http://mud-kage.kakao.co.kr
+                   http://ec2-52-79-100-222.ap-northeast-2.compute.amazonaws.com:8080 http://www.whoo.io http://localhost:8080;
+                   script-src 'self' 'unsafe-eval';
+                   style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+                   img-src 'self' http://mud-kage.kakao.co.kr http://ionicframework.com http://imagebase.net;
+                   font-src 'self' https://fonts.gstatic.com; ">
   <title></title>
 
-  <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+  <link href="lib/ionic/css/ionic.min.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
 
   <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
@@ -13,7 +20,7 @@
   -->
 
   <!-- ionic/angularjs js -->
-  <script src="lib/ionic/js/ionic.bundle.js"></script>
+  <script src="lib/ionic/js/ionic.bundle.min.js"></script>
 
   <!-- cordova script (this will be a 404 during development) -->
   <script src="lib/ngCordova/dist/ng-cordova.min.js"></script>
@@ -26,6 +33,7 @@
   <script src="js/ctrl/chatsCtrl.js"></script>
   <script src="js/ctrl/chatDetCtrl.js"></script>
   <script src="js/ctrl/acctCtrl.js"></script>
+  <script src="js/ctrl/loginCtrl.js"></script>
   <script src="js/services.js"></script>
   <script src="js/svc/chatSvc.js"></script>
 </head>

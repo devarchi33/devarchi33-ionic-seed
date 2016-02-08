@@ -1,1 +1,20 @@
 /* Empty. Add your own CSS if you like */
+/* login */
+.ion-log-in {
+  background: url(../img/background/city1024x682.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0.9;
+  overflow-y: hidden;
+}
+
+.item-image {
+  position: relative;
+  top: 280px;
+}
+
+.item-image > h1, h3 {
+  color: lemonchiffon;
+}
