@@ -4,5 +4,6 @@ angular.module('strt.ctrls',
     'strt.ctrls.chatsCtrl',
     'strt.ctrls.chatDetCtrl',
     'strt.ctrls.acctCtrl',
-    'strt.ctrls.loginCtrl'
+    'strt.ctrls.loginCtrl',
+    'strt.ctrls.mainCtrl'
   ]);

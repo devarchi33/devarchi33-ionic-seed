@@ -25,7 +25,7 @@ angular.module('strt.ctrls.loginCtrl', [])
               accToken = response.access_token;
               LoginSvc.getKakaoUserInfo(accToken)
                 .then(function (response) {
-                  $state.go('tab.dash');
+                  $state.go('main');
                 });
             }, function (data, status) {
               var alertPopup = $ionicPopup.alert({

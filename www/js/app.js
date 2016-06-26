@@ -91,6 +91,12 @@ angular.module('strt', ['ionic', 'strt.ctrls', 'strt.svcs', 'ngCordova'])
         url: '/login',
         templateUrl: 'templates/login.html',
         controller: 'LoginCtrl'
+      })
+
+      .state('main', {
+        url: '/main',
+        templateUrl: 'templates/main.html',
+        controller: 'MainCtrl'
       });
 
     // if none of the above states are matched, use this as the fallback
