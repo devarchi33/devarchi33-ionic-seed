@@ -9,11 +9,14 @@ angular.module('strt.ctrls.loginCtrl', [])
 
     //functions
     $http.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded';
+
     $scope.kakaoLogin = function () {
       String.prototype.startsWith = function (str) {
         return this.indexOf(str) == 0;
       };
+
       var ref = LoginSvc.kakaoLogin();
+
       ref.addEventListener('loadstart', function (event) {
         if ((event.url).startsWith(redirectUri)) {
           reqToken = (event.url).split("code=")[1];

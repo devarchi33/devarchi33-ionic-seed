@@ -1,1 +1,5 @@
-angular.module('strt.svcs', ['strt.svcs.chatsSvc', 'strt.svcs.loginSvc']);
+angular.module('strt.svcs',
+  [
+    'strt.svcs.chatsSvc',
+    'strt.svcs.loginSvc'
+  ]);

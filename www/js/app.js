@@ -9,7 +9,7 @@
 //login
 var accToken = "";
 var reqToken = "";
-var clientId = "3edf1147f1c757da1113ae07b0ed3458"; //Kakao REST API key
+var clientId = "bbb3080b97ebefe6bb65ba71eef5c0ef"; //Kakao REST API key
 var redirectUri = "http://localhost/";
 
 angular.module('strt', ['ionic', 'strt.ctrls', 'strt.svcs', 'ngCordova'])
