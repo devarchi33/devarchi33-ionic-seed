@@ -18,3 +18,7 @@
 .item-image > h1, h3 {
   color: lemonchiffon;
 }
+
+.gravity-thumbnail {
+  border-radius: 50%;
+}
